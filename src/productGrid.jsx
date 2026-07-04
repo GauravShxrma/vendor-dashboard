@@ -1,4 +1,4 @@
-import ProductCard from "./ProductCard";
+import ProductCard from "./productCard.jsx";
 
 export default function ProductGrid({ filteredProducts, handelSellProduct, handleRestockProduct }) {
   if (filteredProducts.length === 0) {
